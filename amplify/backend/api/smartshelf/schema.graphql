@@ -14,5 +14,9 @@ type shelfMonitor
 }
 
 enum ProductType {
-  BOTTLE
+  mm
+  lays
+  kinder
+  pen
+  sticker
 }

@@ -59,7 +59,7 @@ function Body() {
         <img src={shelf.s3Uri} alt="Detections" className={classes.image} />
 
         <Typography variant="h5" style={{ padding: 10, textAlign: "center" }}>
-          Count of items:{" "}
+          Count of items NN:{" "}
           {shelf.count === "" || shelf.count === 9000 ? (
             <em>
               <span style={{ color: "#FF9900" }}>Waiting for items...</span>
